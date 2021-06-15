@@ -1,0 +1,72 @@
+@import '../../styles/__colors.css';
+
+.footer {
+  position: relative;
+  display: block;
+}
+
+.splash {
+  background-image: url('https://d9hhrg4mnvzow.cloudfront.net/info.geers.de/zdf/0661db1f-gottschalk-footer_11hc0h7000000000000000.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 320px;
+  width: 100%;
+}
+
+.quote {
+  position: absolute;
+  top: 40px;
+  left: 20%;
+  display: flex;
+  flex-direction: row;
+  width: 450px;
+  color: #fff;
+}
+
+.quote > img {
+  margin-right: 1rem;
+}
+
+.quoteText {
+  font-size: 1.75rem;
+}
+
+.quoteName {
+  font-size: 1.25rem;
+}
+
+.footerBar {
+  height: 100px;
+  background-color: var(--bg-footer);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.impressum {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .splash {
+    background-image: url('https://d9hhrg4mnvzow.cloudfront.net/info.geers.de/zdf/bbdfbb90-gottschalk-verstehen-clean-1370-1.jpg');
+    height: 230px;
+  }
+
+  .quote {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+    color: #fff;
+  }
+
+  .quote > img {
+    height: 50px;
+  }
+}

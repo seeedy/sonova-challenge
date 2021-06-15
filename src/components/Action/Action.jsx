@@ -6,9 +6,7 @@ const Action = () => {
   return (
     <div className={styles.action}>
       <div className={styles.title}>
-        <h1>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.
-        </h1>
+        <h1>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h1>
       </div>
       <div className={styles.buttonBox}>
         <Button text='suscipit lobortis nisl' />

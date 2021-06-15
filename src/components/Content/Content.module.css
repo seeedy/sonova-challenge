@@ -16,5 +16,6 @@
 @media (max-width: 600px) {
   .hero {
     height: 250px;
+    background-image: url('https://d9hhrg4mnvzow.cloudfront.net/info.geers.de/zdf/f43896e0-zdf-hero-image-woman-virto-m-titanium-mobile-v1_10000000go0af00000c000.jpg');
   }
 }
