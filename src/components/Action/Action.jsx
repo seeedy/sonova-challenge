@@ -7,12 +7,11 @@ const Action = () => {
     <div className={styles.action}>
       <div className={styles.title}>
         <h1>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.
         </h1>
       </div>
       <div className={styles.buttonBox}>
-        <Button text='Jetzt Hörgeräte kostenlos testen' />
+        <Button text='suscipit lobortis nisl' />
       </div>
       <div className={styles.logos}>
         <div>

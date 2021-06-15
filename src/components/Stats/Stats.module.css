@@ -1,21 +1,23 @@
 @import '../../styles/__colors.css';
 
 .stats {
-  padding: 3rem 20%;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title {
-  font-size: 2rem;
+  width: 990px;
+  font-size: 1.5rem;
   margin: 2rem 0;
 }
 
 .tiles {
+  width: 990px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 2rem 0;
-  min-width: 900px;
 }
 
 .tile {
@@ -24,7 +26,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   margin: 1rem 0;
 }
 
@@ -39,49 +40,32 @@
   font-weight: bold;
 }
 
-.info {
-  height: 510px;
-  min-width: 900px;
-  background-color: var(--bg-primary);
-  display: flex;
-  margin: 4rem 0;
-}
-
-.infoImg {
-  position: relative;
-  width: 50%;
-  background-image: url('https://d9hhrg4mnvzow.cloudfront.net/info.geers.de/zdf/49437970-zdf-image-2.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-
-.infoText {
-  padding: 2rem;
-  width: 50%;
-}
-
-.paragraph {
-  margin-bottom: 1rem;
-  font-size: 1.25rem;
-  line-height: 1.7rem;
-}
-
 @media (max-width: 600px) {
   .stats {
     padding: 1rem;
   }
 
+  .title {
+    width: 100%;
+    font-size: 1.1rem;
+  }
+
   .tiles {
     flex-direction: column;
+    width: 100%;
+    margin: 0;
   }
 
   .tile {
     width: 100%;
-
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+  }
+
+  .tileText {
+    font-size: 1.1rem;
+    font-weight: bold;
   }
 
   .percent {

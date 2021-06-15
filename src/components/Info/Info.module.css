@@ -1,0 +1,68 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.infoBox {
+  height: 510px;
+  background-color: var(--bg-primary);
+  display: flex;
+  margin: 4rem 0;
+  width: 990px;
+}
+
+.infoImg {
+  position: relative;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.firstImg {
+  background-image: url('https://d9hhrg4mnvzow.cloudfront.net/info.geers.de/zdf/49437970-zdf-image-2.jpg');
+}
+
+.secondImg {
+  background-image: url('https://d9hhrg4mnvzow.cloudfront.net/info.geers.de/zdf/b0c886af-zdf-image-geers-store-1.jpg');
+}
+
+.infoText {
+  padding: 2rem;
+  width: 50%;
+}
+
+.paragraph {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  line-height: 1.7rem;
+}
+
+.buttonBox {
+  width: 360px;
+}
+
+@media (max-width: 600px) {
+  .infoBox {
+    width: 360px;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+  }
+
+  .secondBox {
+    flex-direction: column-reverse;
+  }
+
+  .infoImg {
+    width: 360px;
+    height: 360px;
+  }
+
+  .infoText {
+    width: 320px;
+  }
+}

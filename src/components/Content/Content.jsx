@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Content.module.css';
-import { Action, Stats } from '../';
+import { Action, Stats, Info, Testimonial } from '../';
 
 const Content = () => {
   return (
@@ -8,6 +8,8 @@ const Content = () => {
       <div className={styles.hero}></div>
       <Action />
       <Stats />
+      <Info />
+      <Testimonial />
     </div>
   );
 };

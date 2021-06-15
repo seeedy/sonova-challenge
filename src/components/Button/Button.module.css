@@ -1,0 +1,15 @@
+@import '../../styles/__colors.css';
+
+.button {
+  width: 100%;
+  height: 56px;
+  background-color: var(--green);
+  color: #fff;
+  display: block;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
