@@ -13,51 +13,8 @@
   background-size: cover;
 }
 
-.action {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  position: absolute;
-  height: 420px;
-  width: 500px;
-  top: 140px;
-  left: 50%;
-  background: white;
-  padding: 2rem;
-}
-
-.hearing {
-  text-align: center;
-}
-
-.logos {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.starRating {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
-.rating {
-  font-weight: bold;
-  font-size: 1.25rem;
-}
-
 @media (max-width: 600px) {
   .hero {
     height: 250px;
-  }
-
-  .action {
-    width: 100%;
-    position: relative;
-    top: 0;
-    left: 0;
-    padding: 0;
   }
 }
