@@ -12,8 +12,8 @@ const Testimonial = () => {
     <div className={styles.testimonial}>
       <div className={styles.content}>
         <div className={styles.checkmarks}>
-          {texts.map((text) => (
-            <div className={styles.checkmarkBox}>
+          {texts.map((text, idx) => (
+            <div className={styles.checkmarkBox} key={idx}>
               <div className={styles.checkmark}>
                 <img
                   alt='checkmark'

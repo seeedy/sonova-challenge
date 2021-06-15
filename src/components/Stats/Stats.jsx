@@ -30,8 +30,8 @@ const Stats = () => {
         <h2>Ut wisi enim ad minim veniam</h2>
       </div>
       <div className={styles.tiles}>
-        {tiles.map((tile) => (
-          <div className={styles.tile}>
+        {tiles.map((tile, idx) => (
+          <div className={styles.tile} key={idx}>
             <h1 className={styles.percent}>{tile.percent}</h1>
             <div className={styles.tileText}>{tile.text}</div>
           </div>
